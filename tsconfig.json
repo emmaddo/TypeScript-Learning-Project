@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "target": "es6",                     /* Specify ECMAScript target version */
+      "module": "commonjs",                /* Specify module code generation */
+      "strict": true,                      /* Enable all strict type-checking options */
+      "esModuleInterop": true,             /* Emit additional JavaScript for importing CommonJS modules */
+      "skipLibCheck": true,                /* Skip type checking of declaration files */
+      "forceConsistentCasingInFileNames": true, /* Ensure that casing is consistent in file names */
+      "outDir": "./dist"                   /* Specify the output directory for compiled JavaScript files */
+    },
+    "include": [
+      "a.ts",                             /* Specify the files to be compiled */
+      "b.ts"
+    ],
+    "exclude": [
+      "node_modules"                      /* Specify the files to be excluded from compilation */
+    ]
+  }
+  
